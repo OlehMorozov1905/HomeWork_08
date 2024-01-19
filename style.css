@@ -1,0 +1,28 @@
+.col-sm-6,
+.col-md-4,
+.col-xl,
+.col-md-6 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.col-sm-6:nth-child(1) {
+    background-color: red;
+}
+
+.col-md-4:nth-child(2) {
+    background-color: orange;
+}
+
+.col-xl:nth-child(3) {
+    background-color: gold;
+}
+
+.col-sm-6.col-xl:nth-child(4) {
+    background-color: green;
+}
+
+.col-md-6:nth-child(5) {
+    background-color: rgb(0, 140, 255);
+}
